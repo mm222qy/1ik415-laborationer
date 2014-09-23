@@ -1,7 +1,16 @@
 body {margin: 0; padding: 0; font-size: 1em ;background: gray}
 
 
-#container { min-height:100%; position:relative;}
+#container  { min-height:100%; position:relative; }
+#logo { width: 571px; height:104px; background: url(../pics/marcus_logo.png);}
+.blogg
+{
+background-image: url('../pics/scroll.png');
+background-repeat: no-repeat;
+padding-left: 30px;  /* width of the image plus a little extra padding */
+padding-bottom:30px;
+display: block;  /* may not need this, but I've found I do */
+}
 
 
 #body {color:#000000; padding: 10px; padding-bottom: 60px;  width: 50%; background: #667799; margin-left: 8.2em;}

@@ -4,19 +4,21 @@ body {margin: 0; padding: 0; font-size: 1em ;background: gray}
 #container { min-height:100%; position:relative;}
 
 
-#body {padding: 10px; padding-bottom: 60px;  width: 50%; background: #667799; margin-left: 8.2em;}
-
-#header { padding:10px; background:black;}
-#header h1 {color: #667799;}
-#header p {color: #667799;}
+#body {color:#000000; padding: 10px; padding-bottom: 60px;  width: 50%; background: #667799; margin-left: 8.2em;}
+#body a:link{color: #000000; text-decoration: underline;}
+#body a:visited{color: #000000; text-decoration: underline;}
+#body a:hover{color: #222222; text-decoration: underline;}
+#header { padding:10px; background:black; color: #667799;}
 
 #menycontainer {float:left; }
 #menycontainer ul{width: 8em; margin: 0; padding: 0; border: 2px solid #ffffff;}
 #menycontainer li{list-style: none; padding: 0.3em 0.1em; font: bold 0.8em Verdana, sans-serif;}
-#menycontainer ul a{text-decoration: none; padding: 0.1em 2em 0.1em 0.3em;}
+#menycontainer ul a{text-decoration: none; padding: 0.1em 5px 0.1em 0.3em;}
 #menycontainer a:link{color: #000000;}
 #menycontainer a:visited{color: #000000;}
 #menycontainer a:hover{background: #ffcc66;}
+#menycontainer ul li a:active{background: #ffffff;}
+ 
 
 
 

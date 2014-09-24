@@ -1,15 +1,15 @@
-body {margin: 0; padding: 0; font-size: 1em ;background: gray}
+body {margin: 0; padding: 0; font-size: 1em ;background: #E6E2AF}
 
 
 #container  { min-height:100%; position:relative; }
-#logo { width: 571px; height:104px; background: url(../pics/marcus_logo.png);}
+#logo {  width: 571px; height:104px; background: url(../pics/marcus_logo.png);}
 .blogg
 {
 background-image: url('../pics/scroll.png');
 background-repeat: no-repeat;
-padding-left: 30px;  /* width of the image plus a little extra padding */
+padding-left: 30px;  
 padding-bottom:30px;
-display: block;  /* may not need this, but I've found I do */
+display: block; 
 }
 
 
@@ -17,7 +17,7 @@ display: block;  /* may not need this, but I've found I do */
 #body a:link{color: #000000; text-decoration: underline;}
 #body a:visited{color: #000000; text-decoration: underline;}
 #body a:hover{color: #222222; text-decoration: underline;}
-#header { padding:10px; background:black; color: #667799;}
+#header { padding:10px; background:#046380; color: #667799;}
 
 #menycontainer {float:left; }
 #menycontainer ul{width: 8em; margin: 0; padding: 0; border: 2px solid #ffffff;}
@@ -31,5 +31,5 @@ display: block;  /* may not need this, but I've found I do */
 
 
 
-#footer { position:absolute;  background: #997766; bottom:0; width: 100%; height:60px;}
+#footer { position:absolute;  background: #002F2F; bottom:0; width: 100%; height:60px;}
 

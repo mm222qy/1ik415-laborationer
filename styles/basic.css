@@ -5,6 +5,7 @@ body {margin: 0; padding: 0; font-size: 1em ;background: #E6E2AF; font-family: V
 #logo {  width: 448px; height:71px; background-image: url(../pics/marcus_logo.png); background-repeat:no-repeat;}
 .blogg
 {
+    
 background-image: url('../pics/scroll.png');
 background-repeat: no-repeat;
 padding-left: 30px;  
@@ -38,13 +39,17 @@ display: block;
  
 
 #footer { position:absolute;  background: #046380; bottom:0; width: 100%; height:60px;}
-.left {float: left;}
-.right {float: right;}
+
+.right {float: right; }
 .table {background: #556688;}
 
 
-.marcus-form {    margin-left:auto;  margin-right:auto; max-width: 500px; background: #046380; padding: 20px 30px 20px 30px;
-font: 12px "Helvetica Neue", Helvetica, Arial, sans-serif; color: #000; border:1px solid #FFF; border-radius: 5px;}
+.marcus-form 
+{
+            margin-left:auto;  margin-right:auto; max-width: 500px; background: #046380; padding: 20px 30px 20px 30px;
+            font: 12px "Helvetica Neue", Helvetica, Arial, sans-serif; color: #000; border:1px solid #FFF; border-radius: 5px;
+    
+}
 
 .marcus-form h1 {  font: 25px "Helvetica Neue", Helvetica, Arial, sans-serif; padding: 0px 0px 10px 40px;
 display: block; border-bottom: 1px solid #FFF;  margin: -10px -30px 30px -30px; color: #000;}

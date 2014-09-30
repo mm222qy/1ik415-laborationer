@@ -4,6 +4,7 @@
         <meta charset="utf-8" />
         <title>Kontaktinformation</title>
         <link rel="stylesheet" href="../styles/basic.css" />
+        <link rel="stylesheet"  media="print" href="../styles/print.css" >
         
     </head>
     <body>
@@ -22,9 +23,10 @@
             
         </div>
         <div id="body">
-        <form id="form" name="form" method="post" action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php">
         
-        <fieldset style="width: 450px;">
+        <form class="marcus-form"  id="form" name="form" method="post" action="">
+        
+        <fieldset>
         <legend>Fråga</legend>
  
             <p>
@@ -46,7 +48,7 @@
           </p>
             </fieldset>
             
-            <fieldset style="width: 450px;">
+            <fieldset>
             <legend>Information om dig</legend>
             
             <p>
@@ -60,8 +62,8 @@
                 
                 
             </fieldset>
-            <input type="submit" name="submit" id="submit" value="Skicka frågan" />
-            <input type="reset" name="reset" id="reset" value="Återställ formuläret" />
+            <input class="submit" type="submit" name="submit" id="submit" value="Skicka frågan" />
+            <input class="submit" type="reset" name="reset" id="reset" value="Återställ formuläret" />
             
             </form>
             </div>

@@ -1,5 +1,4 @@
-body {margin: 0; padding: 0; font-size: 1em ;background: #E6E2AF; font-family: Verdana, Arial, sans-serif; }
-
+body { font-family: Georgia, Times, serif; font-size: 10pt; }
 
 #container  { min-height:100%; position:relative; }
 #logo {  width: 448px; height:71px; background-image: url(../pics/marcus_logo.png); background-repeat:no-repeat;}
@@ -43,14 +42,19 @@ display: block;
 .table {background: #556688;}
 
 
-.marcus-form {    margin-left:auto;  margin-right:auto; max-width: 500px; background: #046380; padding: 20px 30px 20px 30px;
-font: 12px "Helvetica Neue", Helvetica, Arial, sans-serif; color: #000; border:1px solid #FFF; border-radius: 5px;}
+.marcus-form
+{
+    margin-left:auto;  margin-right:auto; max-width: 500px; background: #046380; padding: 20px 30px 20px 30px;
+    font: 12px "Helvetica Neue", Helvetica, Arial, sans-serif; color: #000; border:1px solid #FFF; border-radius: 5px;
+    
+}
 
 .marcus-form h1 {  font: 25px "Helvetica Neue", Helvetica, Arial, sans-serif; padding: 0px 0px 10px 40px;
 display: block; border-bottom: 1px solid #FFF;  margin: -10px -30px 30px -30px; color: #000;}
 
 .marcus-form h1>span { display: block; font-size: 11px;}
 .marcus-form label {display: block; margin: 0px 0px 5px;}
+
 .marcus-form label>span { float: left; width: 20%; text-align: right; padding-right: 10px; margin-top: 10px; color: #000;
 font-family: "Helvetica neue", Helvetica, Arial, sans-serif; font-weight: bold;}
 

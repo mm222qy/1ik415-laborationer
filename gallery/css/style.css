@@ -1,10 +1,9 @@
 body
 {
-    background-image: url(https://imagizer.imageshack.us/v2/857x643q90/718/fastmadebackgroundmarsw.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    margin-left: 195px;
-    margin-right: 150px;
+    background: #333;
+    
+    
+  
 }
 
 
@@ -13,11 +12,14 @@ h1
     font-family: 'Open Sans', sans-serif;
     text-align: center;
     font-size: 3em;
-    color: #222;
+    color: #700;
+    text-shadow: 2px 2px 3px rgba(37, 255, 255, 1);
    
     
 }
 ul{list-style-type: none;}
+
+
 
 .pics a
 {
@@ -36,7 +38,7 @@ ul{list-style-type: none;}
 	transition: all .55s linear;
 	z-index:0;
     position:relative;
-    top: 80px;
+   
     border: solid 1px #333;
 }
 
@@ -59,10 +61,11 @@ ul{list-style-type: none;}
 
 
 .pics li:nth-child(1n) a {-webkit-transform:rotate(30deg) scale(0.7,0.7);transform:rotate(30deg) scale(0.7,0.7);top:0px;left:60px;}
-.pics li:nth-child(2n) a {-webkit-transform:rotate(-30deg) scale(0.7,0.7);transform:rotate(-30deg) scale(0.7,0.7);top:40px;left:80px;}
+.pics li:nth-child(2n) a {-webkit-transform:rotate(-30deg) scale(0.7,0.7);transform:rotate(-30deg) scale(0.7,0.7);top:100px;left:30px;}
 .pics li:nth-child(3n) a {-webkit-transform:rotate(40deg) scale(0.7,0.7);transform:rotate(40deg) scale(0.7,0.7);top:50px;left:-10px;}
-.pics li:nth-child(4n) a {-webkit-transform:rotate(-30deg) scale(0.7,0.7);transform:rotate(-30deg) scale(0.7,0.7);top:0px;left:-10px;}
+.pics li:nth-child(4n) a {-webkit-transform:rotate(-30deg) scale(0.7,0.7);transform:rotate(-30deg) scale(0.7,0.7);top:70px;left:-10px;}
 .pics li:nth-child(5n) a {-webkit-transform:rotate(-20deg) scale(0.8,0.8);transform:rotate(-20deg) scale(0.8,0.8);top:50px;left:20px}
+.pics li:nth-child(5n) a {-webkit-transform:rotate(50deg) scale(0.7,0.7);transform:rotate(50deg) scale(0.7,0.7);top:200px;left:60px}
 
 
 
